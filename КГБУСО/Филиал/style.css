@@ -1,0 +1,187 @@
+* {box-sizing: border-box;}
+body {
+  margin: 0;
+  background: #f3ebebb9;
+}
+header {
+  background: #ffffff;
+  text-align: center;
+ 
+}
+header a {
+  display: block;
+  text-decoration: none;
+  outline: none;  
+  transition: .3s ease-in-out;
+}
+.logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 30%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #575454;
+  padding: 10px 30px;
+}
+.topmenu li a:hover {color: #D5B45B;}
+.submenu-link:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+
+
+
+.submenu {
+  background: #a3773d;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin :0 0;
+  transition: .5s ease-in-out;
+}
+
+  
+
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a {border-bottom: none;}
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.Text1{
+    font-size: 27px;
+  margin-right: 140px;
+  margin-left: 600px;
+
+}
+.Text2{
+    font-size: 20px;
+    margin-left: 200px;
+
+}
+.Text3{
+    font-size: 17px;
+    margin-left: 70px;
+    line-height: 40px;
+}
+.tel{
+    text-decoration: none;
+    color: black;
+
+}
+.Text4{
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+.Text5{
+    font-size: 17px;
+    margin-left: 900px;
+    line-height: 40px;
+}
+.Text6{
+    font-size: 17px;
+    margin-left: 1200px;
+    line-height: 40px;  
+    margin-top: -174px;
+}
+.Email{
+    text-decoration: none;
+    color: #D5B45B;
+   
+    
+}
+.Text7{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.Text8{
+    font-size: 20px;
+    margin-left: 200px;
+
+}
+.Text9{
+    font-size: 17px;
+    margin-left: 70px;
+    line-height: 40px;
+}
+.tel{
+    text-decoration: none;
+    color: black;
+
+}
+.Text10{
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+.Text11{
+    font-size: 17px;
+    margin-left: 900px;
+    line-height: 40px;
+}
+.Text12{
+    font-size: 17px;
+    margin-left: 1200px;
+    line-height: 40px;  
+    margin-top: -174px;
+}
+.Text13{
+    font-size: 20px;
+    margin-left: 70px;
+    line-height: 40px;
+    font-weight: normal;
+}
+.Sayt{
+    text-decoration: none;
+    color: orangered;
+}
+.Setup{
+    text-decoration: none;
+    color: orangered;
+}
+
+   
+    
+
+
+
+
+
